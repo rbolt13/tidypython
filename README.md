@@ -40,7 +40,7 @@ In this repository, you'll find my submissions for each week's challenge. Each s
 * `README.md`: A brief summary of the challenge.
 * `index.py`: The script used to generate the visual.
 * `functions`: The functions used to clean, visualize, and style the visual. 
-* `img.png`: The resulting visual.
+* `plot.png`: The resulting visual.
 
 <h2 align="center">
 2023 Submissions
