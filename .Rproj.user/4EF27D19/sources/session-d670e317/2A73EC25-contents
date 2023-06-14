@@ -1,0 +1,19 @@
+#### Week 8 - Bob Ross ####
+# Title: Visual Function
+# Date: June 13, 2023
+# Description: A function that takes
+# in a clean data set and creates a 
+# data visual from it. 
+
+#### Load Packages ####
+# matplotlib: static visualization functions. 
+# numpy: numerical functions. 
+import matplotlib.pyplot as plt
+import numpy as np
+
+#### Visual Function ####
+def vis(clean_df):
+ # plt.stem(ordered_df['values'])
+  #plt.xticks( my_range, ordered_df['group'])
+  vis = plt.bar(clean_df.season, clean_df.total_num_colors)
+  return(vis)

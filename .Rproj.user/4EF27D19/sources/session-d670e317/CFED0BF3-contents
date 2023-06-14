@@ -1,0 +1,19 @@
+#### Week 8 - Bob Ross ####
+# Title: Cleaning Function
+# Date: June 13, 2023
+# Description: A function that takes
+# in a data set and cleans it. 
+
+#### Load Packages ####
+# numpy: numerical functions. 
+# pandas: data analysis functions. 
+import numpy as np
+import pandas as pd
+
+from pandas import Series, DataFrame
+
+#### Cleaning Function ####
+def clean(df):
+  grouped_df = df.groupby(df['season'])
+  clean_df = grouped_df.count()
+  return(clean_df)
